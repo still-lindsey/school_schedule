@@ -1,4 +1,4 @@
-
+from school_schedule.student import Student 
 
 #first instance
 quinn = Student(
@@ -13,7 +13,7 @@ quinn = Student(
                     "Music Composition"
                 ]
             )
-
+print(vars(quinn))
 quinn.add_class("Painting")
 quinn.get_num_classes()
 quinn.summary()
